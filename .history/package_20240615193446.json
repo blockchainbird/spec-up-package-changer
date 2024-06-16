@@ -1,0 +1,35 @@
+{
+    "name": "spec-up-splitter",
+    "version": "1.0.15",
+    "description": "Tool for splitting a file with many terms and definitions into separate files with each one term and definition.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "split-spec": "spec-up-split",
+        "postinstall": "node -e \"console.log('Thank you for installing spec-up-splitter.\\n\\nTo use this tool, run: \\\"npx spec-up-splitter\\\"\\n\\nFor help run: \\\"npx spec-up-splitter help\\\"')\""
+    },
+    "bin": {
+        "spec-up-splitter": "./index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blockchainbird/spec-up-splitter.git"
+    },
+    "keywords": [
+        "split",
+        "terms",
+        "definitions",
+        "glossary",
+        "specification",
+        "npm",
+        "package"
+    ],
+    "author": "Kor Dwarshuis <kor@dwarshuis.com>",
+    "license": "Apache 2.0",
+    "bugs": {
+        "url": "https://github.com/blockchainbird/spec-up-splitter/issues"
+    },
+    "homepage": "https://github.com/blockchainbird/spec-up-splitter#readme",
+    "dependencies": {},
+    "devDependencies": {}
+}
